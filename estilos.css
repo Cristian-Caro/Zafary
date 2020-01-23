@@ -1,0 +1,48 @@
+
+
+   .caja-login{
+    text-align: center;
+    border: solid rgb(61, 196, 206);
+    background: rgb(97, 140, 160);
+    border-radius: 10px;
+  }
+  body{
+    position:absolute;
+    left:45%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 400px;
+    background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-22.jpg");
+    background-repeat: no-repeat;
+}
+p{
+  font-size: 20px;
+  color: rgb(14, 15, 15);
+ padding-bottom: 5px;
+ border-radius: 50px;
+   
+  }
+  input{
+    text-align: center;
+    border-radius: 10px;
+    width: 260px;
+    height: 30px;
+  
+  }
+  input::placeholder{
+    color: #5AD2AE;
+    opacity: 1;
+  }
+  .boton{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    background: -webkit-linear-gradient(top,rgb(138, 240, 138),rgb(147, 204, 154));
+    background: linear-gradient(top,rgb(138, 240, 138),rgb(147, 204, 154));
+    color: rgb(58, 52, 145);
+    width: 260px;
+    margin-left:19PX;
+  }
+ 

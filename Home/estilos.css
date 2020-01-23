@@ -1,0 +1,19 @@
+body {
+    grid-template-columns: 10% 80% 10%;
+    text-align: center;
+}
+p{
+text-align: center;
+
+font-size: 25px;
+line-height: 15px;
+color: #c24b1c;
+}
+
+img{
+    
+    display:inline-block;
+    margin:auto;
+    height: 60%;
+    width: 60%;    
+    }

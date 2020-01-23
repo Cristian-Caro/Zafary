@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    border: 5px solid red;
+    text-align: center;
+    height: 99%;
+}
+main { 
+    display: block;
+}
+ .cabecera-principal{
+    
+    border: 4px solid rgb(194, 42, 240);
+    height: 10%;
+ }
+ .seccion-principal{
+      
+    border: 4px solid cornflowerblue;
+    display: grid;
+    grid-template-columns:30%  70%;
+    height: 88%;
+    
+ }
+ .seccion-principal aside{
+     
+    border: 4px solid rgb(25, 236, 18);
+    
+ }
+ .main-principal {
+    border: 4px solid blue;
+ }
+ .main-principal header{
+    border: 4px solid rgb(228, 159, 32);
+    height: 10%;
+ }
+ .main-principal section{
+    border: 4px solid rgb(230, 57, 230);
+    height: 88%;
+ }

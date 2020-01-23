@@ -1,0 +1,61 @@
+
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 97.5%;
+}
+.cabecera-principal{
+
+     text-align: center;
+     background-color: rgb(18, 19, 19);
+     height: 55px;
+     color: white;
+     line-height: 49px;
+     font-size: 30px;
+   
+}
+
+.seccion-principal{
+    
+    display: grid;
+    grid-template-columns:15%  85%;
+    height: 99%;
+  
+    
+ }
+ 
+ .menu{
+    
+    background-color: rgba(99, 184, 218, 0.5);
+    height: 99%;
+ }
+ .central{
+     width: 100%;
+     height: 99%;
+
+ }
+
+
+    .boton{
+        margin: 1px;
+        text-align: center;
+        cursor: pointer;
+        height: 60px;
+        border-bottom:solid 1px grey;
+        
+        line-height: 56px
+        
+      }
+      .boton:hover{
+   
+        background-color:rgba(71, 202, 241, 0.5);
+      }
+     
+      
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+body{
+   text-align: center;
+    margin:0;
+   /* border: 5px solid red;*/
+    text-align: center;
+    height: 99%;
+}
+main { 
+    display: block;
+}
+ .cabecera-principal{
+    
+   /* border: 4px solid rgb(194, 42, 240);*/
+    height: 10%;
+    background-color: green;
+ }
+ .seccion-principal{
+      
+    /*border: 4px solid cornflowerblue;*/
+    display: grid;
+    grid-template-columns:20%  80%;
+    height: 88%;
+    
+ }
+ .seccion-cuerpo{
+   background-image: url("img/informatica.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+ }
+ .seccion-principal aside{
+     
+    /*border: 4px solid rgb(25, 236, 18);*/
+    grid-template-columns:20%  80%;
+    
+ }
+ 
+ .main-principal header{
+   /* border: 4px solid rgb(228, 159, 32);*/
+    height: 7%;
+ }
+ .main-principal section{
+   background-color: rgba(216, 218, 218, 0.8);
+   /* border: 4px solid rgb(230, 57, 230);*/
+    grid-template-rows: 70% 30%;
+    height: 88%;
+text-align: justify;
+
+ }
+ 
+ input{
+   display: inline-block;
+   border-radius: 50px;
+   width: 80%;
+   height: 5%;
+margin: 0%;
+
+ }
+ 
+ .boton{
+   margin: 1px;
+   text-align: center;
+   cursor: pointer;
+   height: 60px;
+   border-bottom:solid 1px grey;
+   vertical-align: middle;
+   line-height: 56px;
+   
+ }
+ p1{
+   
+    display: block;
+   margin: 1px;
+   text-align: center;
+   background-color: rgba(119, 122, 122,0.5);
+   height: 60px;
+   border-bottom:solid 1px grey;
+   line-height: 56px;
+   font-size: 160% ;
+       
+   }
+   .img {
+      vertical-align: middle;
+    display:inline-block;
+    border-radius: 50px;
+    
+    height: 50%;
+    width: 10%; 
+      /*max-height:124.23px;max-width:124.23px;*/
+     
+  }
+  p2{
+   
+   display: block;
+  margin: 1px;
+  text-align: center;
+  
+  height: 60px;
+  
+  line-height: 56px;
+  font-size: 200% ;
+      
+  }
+  .enviar{
+     float: right;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 40px;
+   height: 6%;
+   background: rgba(148, 151, 148, 0.6);
+   
+   color: white;
+   width: 16%;
+   
+ }
+ .boton:hover{
+   
+   background-color:rgba(201, 204, 204, 0.5);
+ }
+
+ 
